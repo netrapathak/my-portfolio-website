@@ -1,0 +1,96 @@
+/*Rules for the about section*/
+
+blockquote {
+  padding-top: 1rem;
+  font-weight: bold;
+  quotes: "\201C""\201D""\2018""\2019";
+  padding-bottom: 2rem;
+}
+
+blockquote p:before {
+  content: open-quote;
+  font-weight: bold;
+  font-size: 50px;
+  color: #889c0b;
+}
+blockquote p:after {
+  content: close-quote;
+  font-weight: bold;
+  font-size: 50px;
+  color: #889c0b;
+}
+
+/* Make my image on index.html circular */
+.image-cropper img {
+  border-radius: 50%;
+  height: auto;
+  max-width: 335px;
+  float: right;
+}
+
+#about p {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+main {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+#spacing h4 {
+  padding-top: 2rem;
+}
+
+#spacing iframe {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+/*Rules for the footer section on index.html*/
+footer.contact-footer {
+  background-color: #3e1305;
+  color: white;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+footer svg {
+  fill: white;
+  width: 1.6rem;
+  transition: all 1.5s ease-out;
+  margin-right: 10px;
+}
+
+footer svg:hover {
+  fill: #d0d0d0;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+/* If the text has multiple lines, add the following: */
+.center {
+  padding-top: 3rem;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.center h4 {
+  padding-bottom: 2rem;
+}
+
+.card {
+  padding-bottom: 2rem;
+}
+
+/* .inline-block-child {
+  display: inline-block;
+} */
